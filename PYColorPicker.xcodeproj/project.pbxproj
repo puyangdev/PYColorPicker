@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4C3BF731E9E001F008C38FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C3BF721E9E001F008C38FE /* main.m */; };
+		C4C3BF761E9E001F008C38FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C3BF751E9E001F008C38FE /* AppDelegate.m */; };
+		C4C3BF791E9E001F008C38FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C3BF781E9E001F008C38FE /* ViewController.m */; };
+		C4C3BF7C1E9E001F008C38FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C3BF7A1E9E001F008C38FE /* Main.storyboard */; };
+		C4C3BF7E1E9E001F008C38FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4C3BF7D1E9E001F008C38FE /* Assets.xcassets */; };
+		C4C3BF811E9E001F008C38FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C3BF7F1E9E001F008C38FE /* LaunchScreen.storyboard */; };
+		C4C3BF8A1E9E005F008C38FE /* PYColorPickerImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C3BF891E9E005F008C38FE /* PYColorPickerImageView.m */; };
+		C4C3BF8C1E9E0125008C38FE /* palette.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C3BF8B1E9E0125008C38FE /* palette.png */; };
+		C4C3BF8E1E9E0360008C38FE /* home_folder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C3BF8D1E9E0360008C38FE /* home_folder@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C4C3BF6E1E9E001F008C38FE /* PYColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4C3BF721E9E001F008C38FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4C3BF741E9E001F008C38FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4C3BF751E9E001F008C38FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4C3BF771E9E001F008C38FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4C3BF781E9E001F008C38FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4C3BF7B1E9E001F008C38FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4C3BF7D1E9E001F008C38FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4C3BF801E9E001F008C38FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4C3BF821E9E001F008C38FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4C3BF881E9E005F008C38FE /* PYColorPickerImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYColorPickerImageView.h; sourceTree = "<group>"; };
+		C4C3BF891E9E005F008C38FE /* PYColorPickerImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYColorPickerImageView.m; sourceTree = "<group>"; };
+		C4C3BF8B1E9E0125008C38FE /* palette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = palette.png; sourceTree = "<group>"; };
+		C4C3BF8D1E9E0360008C38FE /* home_folder@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_folder@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4C3BF6B1E9E001F008C38FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4C3BF651E9E001F008C38FE = {
+			isa = PBXGroup;
+			children = (
+				C4C3BF701E9E001F008C38FE /* PYColorPicker */,
+				C4C3BF6F1E9E001F008C38FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4C3BF6F1E9E001F008C38FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4C3BF6E1E9E001F008C38FE /* PYColorPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4C3BF701E9E001F008C38FE /* PYColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				C4C3BF741E9E001F008C38FE /* AppDelegate.h */,
+				C4C3BF751E9E001F008C38FE /* AppDelegate.m */,
+				C4C3BF771E9E001F008C38FE /* ViewController.h */,
+				C4C3BF881E9E005F008C38FE /* PYColorPickerImageView.h */,
+				C4C3BF891E9E005F008C38FE /* PYColorPickerImageView.m */,
+				C4C3BF8B1E9E0125008C38FE /* palette.png */,
+				C4C3BF781E9E001F008C38FE /* ViewController.m */,
+				C4C3BF7A1E9E001F008C38FE /* Main.storyboard */,
+				C4C3BF7D1E9E001F008C38FE /* Assets.xcassets */,
+				C4C3BF7F1E9E001F008C38FE /* LaunchScreen.storyboard */,
+				C4C3BF821E9E001F008C38FE /* Info.plist */,
+				C4C3BF8D1E9E0360008C38FE /* home_folder@3x.png */,
+				C4C3BF711E9E001F008C38FE /* Supporting Files */,
+			);
+			path = PYColorPicker;
+			sourceTree = "<group>";
+		};
+		C4C3BF711E9E001F008C38FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4C3BF721E9E001F008C38FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4C3BF6D1E9E001F008C38FE /* PYColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4C3BF851E9E001F008C38FE /* Build configuration list for PBXNativeTarget "PYColorPicker" */;
+			buildPhases = (
+				C4C3BF6A1E9E001F008C38FE /* Sources */,
+				C4C3BF6B1E9E001F008C38FE /* Frameworks */,
+				C4C3BF6C1E9E001F008C38FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PYColorPicker;
+			productName = PYColorPicker;
+			productReference = C4C3BF6E1E9E001F008C38FE /* PYColorPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4C3BF661E9E001F008C38FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "于浦洋";
+				TargetAttributes = {
+					C4C3BF6D1E9E001F008C38FE = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = L3B82TM5D5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C4C3BF691E9E001F008C38FE /* Build configuration list for PBXProject "PYColorPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4C3BF651E9E001F008C38FE;
+			productRefGroup = C4C3BF6F1E9E001F008C38FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4C3BF6D1E9E001F008C38FE /* PYColorPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4C3BF6C1E9E001F008C38FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C3BF811E9E001F008C38FE /* LaunchScreen.storyboard in Resources */,
+				C4C3BF8E1E9E0360008C38FE /* home_folder@3x.png in Resources */,
+				C4C3BF8C1E9E0125008C38FE /* palette.png in Resources */,
+				C4C3BF7E1E9E001F008C38FE /* Assets.xcassets in Resources */,
+				C4C3BF7C1E9E001F008C38FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4C3BF6A1E9E001F008C38FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C3BF791E9E001F008C38FE /* ViewController.m in Sources */,
+				C4C3BF761E9E001F008C38FE /* AppDelegate.m in Sources */,
+				C4C3BF731E9E001F008C38FE /* main.m in Sources */,
+				C4C3BF8A1E9E005F008C38FE /* PYColorPickerImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4C3BF7A1E9E001F008C38FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4C3BF7B1E9E001F008C38FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4C3BF7F1E9E001F008C38FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4C3BF801E9E001F008C38FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4C3BF831E9E001F008C38FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4C3BF841E9E001F008C38FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4C3BF861E9E001F008C38FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L3B82TM5D5;
+				INFOPLIST_FILE = PYColorPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.puyang.PYColorPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4C3BF871E9E001F008C38FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L3B82TM5D5;
+				INFOPLIST_FILE = PYColorPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.puyang.PYColorPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4C3BF691E9E001F008C38FE /* Build configuration list for PBXProject "PYColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4C3BF831E9E001F008C38FE /* Debug */,
+				C4C3BF841E9E001F008C38FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4C3BF851E9E001F008C38FE /* Build configuration list for PBXNativeTarget "PYColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4C3BF861E9E001F008C38FE /* Debug */,
+				C4C3BF871E9E001F008C38FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4C3BF661E9E001F008C38FE /* Project object */;
+}
